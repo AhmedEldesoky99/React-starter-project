@@ -1,0 +1,34 @@
+html {
+  font-size: 62.5%; //1rem = 10px
+  direction: $direction;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  direction: $direction;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+button {
+  border: none;
+  background-color: unset;
+  cursor: pointer;
+}
+p {
+  margin: 0;
+}
+::selection {
+  background-color: $color-primary;
+  color: $color-font-hover;
+}
